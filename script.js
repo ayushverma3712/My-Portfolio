@@ -419,21 +419,27 @@ contactForm.addEventListener('submit', e => {
    12. PROJECT MODAL
    ========================================================================== */
 const projectData = {
-    'Deadlock Detection': {
-        subject: 'Operating Systems',
-        details: 'Analyzed Deadlock Detection and Prevention strategies. Implemented Banker\'s Algorithm logic to manage resources safely in a C++ environment. Visualized resource allocation using Wait-for-Graph (WFG) analysis.',
-        github: 'https://github.com/ayushverma3712'
+    'Mini C Compiler': {
+        subject: 'Compiler Design',
+        details: 'A full compiler pipeline built in C — Lexer, Parser, Symbol Table, Three-Address Code, and Target Code Generation for a simplified C-like language.',
+        github: 'https://github.com/ayushverma3712/mini-C-compiler'
     },
-    'Transaction Management': {
-        subject: 'DBMS',
-        details: 'Focus on Transaction Control (Commit, Savepoint, Rollback). Ensured ACID properties through secure SQL query structures. Built for complex multi-step database operations.',
-        github: 'https://github.com/ayushverma3712'
+    'CryptX': {
+        subject: 'Full Stack Web development',
+        details: 'A full-stack web app for encrypting and decrypting images, audio, and video using AES-256-CBC. Features JWT auth, email OTP, Firebase, and local-only file processing.',
+        github: 'https://github.com/ayushverma3712/cryptx-fullstack'
     },
-    'AI Imaginarium': {
-        subject: 'Generative AI',
-        details: 'Exploration of high-fidelity image and video generation using advanced prompt engineering. Focus on ethical AI and secure digital creative solutions using Nano Banana & Veo engines.',
-        github: 'https://github.com/ayushverma3712'
-    }
+    'Zero Trust Dashboard': {
+        subject: 'Full Stack Web development and Security',
+        details: 'A full-stack enterprise security dashboard implementing the Zero Trust model — every request is continuously verified. Features webcam-based login, role-based access, and JWT auth.',
+        github: 'https://github.com/ayushverma3712/Zero-Trust-Enterprise-Dashboard'
+    },
+    'Deadlock Simulator': {
+        subject: 'OS',
+        details: "A Python-based educational simulator implementing Banker's Algorithm , Resource Allocation Graph (RAG), and Wait-For Graph (WFG) to detect and avoid deadlocks among concurrent processes.",
+        github: 'https://github.com/ayushverma3712/Deadlock-Avoidance-Detection-Simulator'
+    },
+    
 };
 
 let typingTimer;
