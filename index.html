@@ -190,58 +190,83 @@
             </div>
         </section>
 
-        <!-- PROJECTS -->
+       <!-- PROJECTS -->
         <section id="projects" class="content-section">
             <h2 class="section-title">> Projects</h2>
             <div class="project-grid">
-                <div class="project-card glass-card neon-glow-purple" onclick="openReport('Deadlock Detection')">
+
+                <div class="project-card glass-card neon-glow-purple" onclick="openReport('Mini C Compiler')">
+                    <div class="card-glow"></div>
+                    <div class="project-header">
+                        <span class="project-tag">Compiler Design</span>
+                        <span class="project-date">2026</span>
+                    </div>
+                    <h3>Mini C Compiler</h3>
+                    <p>A full compiler pipeline built in C — Lexer, Parser, Symbol Table, Three-Address Code, and Target Code Generation for a simplified C-like language.</p>
+                    <div class="project-tech">
+                        <span>C</span>
+                        <span>Lexer</span>
+                        <span>Parser</span>
+                        <span>TAC</span>
+                    </div>
+                    <button class="view-project-btn">Access System Report</button>
+                </div>
+
+                <div class="project-card glass-card neon-glow-purple" onclick="openReport('CryptX')">
+                    <div class="card-glow"></div>
+                    <div class="project-header">
+                        <span class="project-tag">Full Stack / Security</span>
+                        <span class="project-date">2025</span>
+                    </div>
+                    <h3>CryptX — AES-256 Encryption System</h3>
+                    <p>A full-stack web app for encrypting and decrypting images, audio, and video using AES-256-CBC. Features JWT auth, email OTP, Firebase, and local-only file processing.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Firebase</span>
+                        <span>AES-256</span>
+                    </div>
+                    <button class="view-project-btn">Access System Report</button>
+                </div>
+
+                <div class="project-card glass-card neon-glow-purple" onclick="openReport('Zero Trust Dashboard')">
+                    <div class="card-glow"></div>
+                    <div class="project-header">
+                        <span class="project-tag">Cybersecurity / Full Stack</span>
+                        <span class="project-date">2025</span>
+                    </div>
+                    <h3>Zero Trust Enterprise Dashboard</h3>
+                    <p>A full-stack enterprise security dashboard implementing the Zero Trust model — every request is continuously verified. Features webcam-based login, role-based access, and JWT auth.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Flask</span>
+                        <span>SQLite</span>
+                        <span>JWT</span>
+                    </div>
+                    <button class="view-project-btn">Access System Report</button>
+                </div>
+
+                <div class="project-card glass-card neon-glow-purple" onclick="openReport('Deadlock Simulator')">
                     <div class="card-glow"></div>
                     <div class="project-header">
                         <span class="project-tag">Operating Systems</span>
-                        <span class="project-date">Sept 2025</span>
+                        <span class="project-date">2025</span>
                     </div>
-                    <h3>Deadlock Detection Logic</h3>
-                    <p>Developed a visualization and detection system for resource allocation using Banker's Algorithm and Wait-for-Graph (WFG) logic.</p>
+                    <h3>Deadlock Avoidance & Detection Simulator</h3>
+                    <p>A Python-based educational simulator implementing Banker's Algorithm, Resource Allocation Graph (RAG), and Wait-For Graph (WFG) to detect and avoid deadlocks among concurrent processes.</p>
                     <div class="project-tech">
-                        <span>C++</span>
-                        <span>OS Logic</span>
+                        <span>Python</span>
+                        <span>Banker's Algo</span>
+                        <span>RAG</span>
+                        <span>WFG</span>
                     </div>
                     <button class="view-project-btn">Access System Report</button>
                 </div>
 
-                <div class="project-card glass-card neon-glow-purple" onclick="openReport('Transaction Management')">
-                    <div class="card-glow"></div>
-                    <div class="project-header">
-                        <span class="project-tag">DBMS / SQL</span>
-                        <span class="project-date">Nov 2025</span>
-                    </div>
-                    <h3>Transaction Management System</h3>
-                    <p>A deep dive into ACID properties, implementing Commit, Savepoint, and Rollback logic for secure data handling.</p>
-                    <div class="project-tech">
-                        <span>SQL</span>
-                        <span>MySQL</span>
-                    </div>
-                    <button class="view-project-btn">Access System Report</button>
-                </div>
-
-                <div class="project-card glass-card neon-glow-purple" onclick="openReport('AI Imaginarium')">
-                    <div class="card-glow"></div>
-                    <div class="project-header">
-                        <span class="project-tag">Generative AI</span>
-                        <span class="project-date">Oct 2025</span>
-                    </div>
-                    <h3>AI Imaginarium</h3>
-                    <p>Showcasing high-fidelity image generation and creative digital solutions through advanced prompt engineering.</p>
-                    <div class="project-tech">
-                        <span>Prompt Eng.</span>
-                        <span>Creative AI</span>
-                    </div>
-                    <button class="view-project-btn">Access System Report</button>
-                </div>
             </div>
         </section>
 
-        <!-- PROJECT MODAL -->
+    <!-- PROJECT MODAL -->
         <div id="project-modal" class="modal-overlay">
             <div class="modal-content glass-card">
                 <div class="modal-header">
